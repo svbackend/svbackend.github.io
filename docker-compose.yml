@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+    frontend-node-cli:
+        build:
+            context: docker/development/node
+        volumes:
+            - .:/app
