@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 
-const companyName:string = "CMC";
-const companyUrl:string = 'https://www.clearmortgagecapital.com/';
+const companyName:string = "Adspons";
+const companyUrl:string = 'https://adspons.com';
 const universityName:string = 'PJATK';
 const universityUrl:string = 'http://www.pja.edu.pl/en/';
-const universityYears:string = '2018-2022';
+const universityYears:string = '2018-202?';
 const yearsOfExperience:number = (new Date().getFullYear() - 2015);
 const currentLocation:string = 'Warsaw, Poland';
 const currentEmail:string = 'svbackend22@gmail.com';
