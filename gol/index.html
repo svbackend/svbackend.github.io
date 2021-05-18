@@ -10,11 +10,25 @@
 </head>
 <body>
 
-    <h1>Game of Life</h1>
+    <h1>Conway's Game of Life</h1>
 
     <div class="buttons-div">
-        <button id="start-random">start Random</button>
-        <button id="stop">stop</button>
+
+        <form action="#!" method="get">
+            <div class="alive-survive">
+                <label>If cell is alive - how many neighbors need to be alive for cell to survive? Use comma to specify multiple numbers, e.g 2,3,4</label>
+                <input id="alive-survive" name="alive-survive" type="text" style="display: block" value="2,3">
+            </div>
+            <div class="dead-reborn">
+                <label>If cell is dead - how many neighbors need to be alive for cell to reborn? Use comma to specify multiple numbers, e.g 2,3,4</label>
+                <input id="dead-reborn" name="dead-reborn" type="text" style="display: block" value="3">
+            </div>
+
+            <button id="change-rules-btn">Change Rules</button>
+        </form>
+
+        <button id="start-random">Run</button>
+        <button id="stop">Stop</button>
     </div>
     
     <canvas id="gamefield" width="1400" height="500"></canvas>
