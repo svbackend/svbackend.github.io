@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
-const companyName:string = "Adspons";
-const companyUrl:string = 'https://adspons.com';
+const companyName:string = "Provectus";
+const companyUrl:string = 'https://provectus.com';
 const universityName:string = 'PJATK';
 const universityUrl:string = 'http://www.pja.edu.pl/en/';
 const universityYears:string = '2018-202?';
@@ -12,7 +12,7 @@ const currentEmail:string = 'svbackend22@gmail.com';
 const currentResumeUrl:string = 'https://docs.google.com/document/d/1JnTviLtkWa5Xh-viTocx2DBGnP4Nk31IUkh5z9Yi4GM/edit?usp=sharing';
 const currentLinkedinUrl:string = 'https://www.linkedin.com/in/svbackend/';
 const currentGithubUrl:string = 'https://github.com/svbackend';
-const currentUpworkUrl:string = 'https://www.upwork.com/o/profiles/users/_~018a4a0ded0fec0fe6/';
+//const currentUpworkUrl:string = 'https://www.upwork.com/o/profiles/users/_~018a4a0ded0fec0fe6/';
 const lookingForJob:boolean = false;
 
 class App extends Component {
@@ -43,7 +43,6 @@ class App extends Component {
           <li><a href={'mailto:' + currentEmail}>{currentEmail}</a></li>
           <li><a href={currentGithubUrl} target="_blank">Github</a></li>
           <li><a href={currentLinkedinUrl} target="_blank">LinkedIn</a></li>
-          <li><a href={currentUpworkUrl} target="_blank">Upwork</a></li>
         </ul>
       </div>
     );
