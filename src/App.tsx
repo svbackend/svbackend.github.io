@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
-const companyName:string = "Provectus";
-const companyUrl:string = 'https://provectus.com';
+const companyName:string = "PartsTech";
+const companyUrl:string = 'https://www.linkedin.com/company/partstech';
 const universityName:string = 'PJATK';
 const universityUrl:string = 'http://www.pja.edu.pl/en/';
 const universityYears:string = '2018-202?';
