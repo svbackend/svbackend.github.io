@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
 
-const companyName:string = "PartsTech";
-const companyUrl:string = 'https://www.linkedin.com/company/partstech';
+//const companyName:string = "PartsTech";
+//const companyUrl:string = 'https://www.linkedin.com/company/partstech';
 const universityName:string = 'PJATK';
 const universityUrl:string = 'http://www.pja.edu.pl/en/';
 const universityYears:string = '2018-202?';
-const yearsOfExperience:number = (new Date().getFullYear() - 2015);
+const yearsOfExperience:number = (new Date().getFullYear() - 2015)-1;
 const currentLocation:string = 'Warsaw, Poland';
 const currentEmail:string = 'svbackend22@gmail.com';
 const currentResumeUrl:string = 'https://docs.google.com/document/d/1JnTviLtkWa5Xh-viTocx2DBGnP4Nk31IUkh5z9Yi4GM/edit?usp=sharing';
 const currentLinkedinUrl:string = 'https://www.linkedin.com/in/svbackend/';
 const currentGithubUrl:string = 'https://github.com/svbackend';
 //const currentUpworkUrl:string = 'https://www.upwork.com/o/profiles/users/_~018a4a0ded0fec0fe6/';
-const lookingForJob:boolean = false;
+const lookingForJob:boolean = true;
 
 class App extends Component {
   render() {
@@ -22,7 +22,7 @@ class App extends Component {
         <h1>
           Valentyn Saik<br />
           <span className="subheading">
-            Software Engineer at <a href={companyUrl}>{companyName}</a>
+            Software Engineer
           </span>
         </h1>
         <p>
@@ -35,7 +35,7 @@ class App extends Component {
           {
             lookingForJob === false
             ? " but I'm not looking for a new job at the moment." 
-            : " and I'm open to new opportunities, especially interested in projects in medical or educational sectors."
+            : " and I'm open to new opportunities, especially interested in projects in HealthCare or educational sectors."
           }
         </p>
         <h3>Contacts</h3>
